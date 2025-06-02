@@ -52,6 +52,16 @@ The agent showed rapid learning with clear convergence:
 ![Solution Path](solution_path.png)
 *DQN agent's learned solution path through the maze*
 
+### Advanced Comprehensive Analysis
+
+![Advanced Visualization](advanced_maze_viz.png)
+*Comprehensive 4-panel visualization showing: Maze State, Rewards Structure, Learned Policy, and Policy Arrows - similar to academic RL visualizations*
+
+### Step-by-Step Analysis
+
+![Step by Step](step_by_step_result.png)
+*Detailed step-by-step analysis with agent position and comprehensive policy information*
+
 ### Generalization Analysis
 
 The trained agent demonstrated excellent performance on mazes similar to training conditions but showed limited generalization to significantly different maze configurations (higher wall density). This highlights a common challenge in RL: agents can overfit to their training distribution.
