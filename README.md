@@ -10,7 +10,7 @@ This project implements a classic Deep Q-Network (DQN) agent that learns to navi
 
 ### Vanilla DQN Algorithm
 
-The implementation follows the original DQN paper (Mnih et al., 2015) with these key components:
+The implementation follows the original DQN paper ([Mnih et al., 2015](https://www.nature.com/articles/nature14236)) with these key components:
 
 1. **Experience Replay**: Stores experiences (state, action, reward, next_state, done) in a replay buffer and samples random batches for training to break temporal correlations
 2. **Target Network**: Uses a separate target network for stable Q-value estimation, updated via soft updates
